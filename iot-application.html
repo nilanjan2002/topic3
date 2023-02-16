@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A web page about IoT Applications" />
+    <meta name="author" content="ENTER YOUR NAME HERE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header h1{
+  text-align: center;
+  color: white;
+  font-size: 40px
+}
+
+header{
+  padding: 40px;
+  background: #fff url(https://w0.peakpx.com/wallpaper/30/145/HD-wallpaper-polygonal-abstract-red-dark-background-abstract-dark-red-deviantart.jpg) center center/cover no-repeat; 
+}
+
+nav{
+  background-color: #333;
+  overflow: hidden;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.menu div{
+  height:3px;
+  width:25px;
+  background-color:white;
+  margin:0px 30px ;
+  margin-top: 5px;
+  float: right;
+  
+}
+.menu{
+  display:flex;
+  margin-top: 15px;
+  flex-direction:column;
+  float:right;
+}
+.list_left1{
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-right: 24px;
+    list-style: none;
+    text-align: center;
+    background: linear-gradient(90deg, #E4E258 0%, #D45858 100%);
+    width: 30%;
+    border-radius: 9px;
+}
+.list_center1{
+    padding: 2px;;
+    margin-bottom: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+    list-style: none;
+    width: 30%;
+    text-align: center;
+    background: linear-gradient(90deg, #E4E258 0%, #D45858 100%);
+    border-radius: 9px;
+}
+.list_right1{
+    margin-bottom: 0px;
+    margin-left: 24px;
+    padding: 2px;
+    list-style: none;
+    width: 30%;
+    text-align: center;
+    background: linear-gradient(90deg, #E4E258 0%, #D45858 100%);
+    border-radius: 9px;
+}
+.list_right1 li{
+    margin: 12px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 55px#333;
+    font-weight: 300;
+    font-size: larger;
+}
+.list_left1 li{
+    margin: 12px ;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 55px#333;
+    font-weight: 300;
+    font-size: larger;
+
+}
+.list_center1 li{
+    margin: 12px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 55px#333;
+    font-weight: 300;
+    font-size:larger;
+    
+}
+.apps {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #fff url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700361907.jpg) center center/cover no-repeat;
+}
+html{
+    background: #fff url(https://w0.peakpx.com/wallpaper/30/145/HD-wallpaper-polygonal-abstract-red-dark-background-abstract-dark-red-deviantart.jpg) center center/cover no-repeat;
+}
+/* <!--Smart Building--> */
+.list_left2{
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-right: 24px;
+    list-style: none;
+    text-align: center;
+    background: linear-gradient(90deg, #FF6060 0%, #9AFFAC 100%);
+    width: 30%;
+    border-radius: 9px;
+}
+.list_center2{
+    padding: 2px;;
+    margin-bottom: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+    list-style: none;
+    width: 30%;
+    text-align: center;
+    background: linear-gradient(90deg, #FF6060 0%, #9AFFAC 100%);
+    border-radius: 9px;
+}
+.list_right2{
+    margin-bottom: 0px;
+    margin-left: 24px;
+    padding: 2px;
+    list-style: none;
+    width: 30%;
+    text-align: center;
+    background: linear-gradient(90deg, #FF6060 0%, #9AFFAC 100%);
+    border-radius: 9px;
+}
+.list_right2 li{
+    margin: 12px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 55px#333;
+    font-weight: 300;
+    font-size: larger;
+}
+.list_left2 li{
+    margin: 12px ;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 55px#333;
+    font-weight: 300;
+    font-size: larger;
+
+}
+.list_center2 li{
+    margin: 12px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 55px#333;
+    font-weight: 300;
+    font-size:larger;
+    
+}
+.building{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #fff url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700361907.jpg) center center/cover no-repeat;
+    
+}
+/* <!--Control--> */
+.list_left3{
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-right: 24px;
+    list-style: none;
+    text-align: center;
+    background: linear-gradient(90deg, #A95CDA 3%, #FFA5CF 100%);
+    width: 30%;
+    border-radius: 9px;
+}
+.list_center3{
+    padding: 2px;;
+    margin-bottom: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+    list-style: none;
+    width: 30%;
+    text-align: center;
+    background: linear-gradient(90deg, #A95CDA 3%, #FFA5CF 100%);
+    border-radius: 9px;
+}
+.list_right3{
+    margin-bottom: 0px;
+    margin-left: 24px;
+    padding: 2px;
+    list-style: none;
+    width: 30%;
+    text-align: center;
+    background: linear-gradient(90deg, #A95CDA 3%, #FFA5CF 100%);
+    border-radius: 9px;
+}
+.list_right3 li{
+    margin: 12px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 55px#333;
+    font-weight: 300;
+    font-size: larger;
+}
+.list_left3 li{
+    margin: 12px ;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 55px#333;
+    font-weight: 300;
+    font-size: larger;
+
+}
+.list_center3 li{
+    margin: 12px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 55px#333;
+    font-weight: 300;
+    font-size:larger;
+    
+}
+.control{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #fff url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700361907.jpg) center center/cover no-repeat;
+}
+.details ul{
+    color: antiquewhite;   
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.details li{
+    margin: 0 22px;
+}
+header h1{
+    font-size: xxx-larger;
+    letter-spacing: 2px;
+}
+#intro p{
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(90deg, #BD4545 0%, #FFE767 100%);
+    font-size: larger;
+}
+    </style>
+    <title>IoT Applications</title>
+  </head>
+  <body>
+    <header>
+      <h1>IoT Applications</h1>
+    </header>
+    <nav>
+      <div class="contents">
+        <a class="navbar-brand" href="/">IoT Devices</a>
+        <a class="nav-item nav-link" href="device-list.html">Devices</a>
+        <a class="nav-item nav-link" href="register-device.html">Register Device</a>
+        <a class="nav-item nav-link" href="iot-application.html">IoT Applications</a>
+      </div>
+      <div class="menu">
+        <div class="line1"></div>
+        <div class="line1"></div>
+        <div class="line1"></div>
+      </div>
+    </nav>
+    <main>
+      <section id="intro">
+        <h1 style="text-align: center; font-size: xxx-large;background: #fff url(https://png.pngtree.com/background/20210717/original/pngtree-retro-comic-halftone-effect-pop-art-light-yellow-background-picture-image_1445370.jpg) center center/cover no-repeat; ">Introduction</h1>
+        <p>
+            Hello! I am Nilanjan Sengupta, a dedicated software engineering student with a strong interest in the fields of Machine Learning and Artificial Intelligence. As I delve deeper into the IoT domain, I am continually inspired by the potential for technology to shape our future. My passion for finance and entrepreneurial spirit drive me to seek out opportunities to apply my skills and knowledge in real-world applications.
+I am always seeking out new challenges and opportunities to expand my skills and knowledge. If you're interested in learning more about my work, or if you'd like to discuss potential collaboration opportunities, please don't hesitate to reach out.
+        </p>
+      </section>
+      <hr></hr>
+        <section>
+            <h2 style="font-size:xxx-large; text-align:center;background: #fff url(https://thumbs.dreamstime.com/z/memphis-abstract-pop-art-line-dots-color-pattern-background-vector-liquid-splash-overlay-geometric-design-memphis-style-color-127593560.jpg) center center/cover no-repeat;">IoT Apps</h2>
+          <fieldset class="apps">
+            <ul class="list_left1">
+                <h2>What is an IoT Application</h2>
+                <li>IoT applications work with IoT devices to perform variety of tasks like edge computing, surveillance, generate real time insights from data collected.</li>
+                <li>The application layer sits above <b>Perception</b> layer and <b>Network</b> layer.</li>
+            </ul>
+            <ul class="list_center1">
+                <h2>Main Features</h2>
+                <li>Secured Communication</li>
+                <li>Cross Platform</li>
+                <li>Seamless Communcation</li>
+                <li>Interactive and User-friendly UI</li>
+            </ul>
+            <ul class="list_right1">
+                <h2>Examples</h2>
+                <li>Smart Home</li>
+                <li>Health Monitoring Wearables</li>
+                <li>Traffic Management</li>
+                <li>Environment Monitoring</li>
+                <li>Agriculture Management</li>
+            </ul>
+
+          </fieldset>
+        </section>
+        <section>
+
+            <h2 style="font-size:xxx-large; text-align:center;background: #fff url(https://thumbs.dreamstime.com/z/memphis-abstract-pop-art-line-dots-color-pattern-background-vector-liquid-splash-overlay-geometric-design-memphis-style-color-127593560.jpg) center center/cover no-repeat;">Smart Building</h2>
+            <br>
+          <fieldset class="building">
+            <ul class="list_left2">
+                <h2>What does SMART mean?</h2>
+                <li>In context of smart devices it means devices capable of making decision on its own based on algorithms.
+                </li>
+            </ul>
+            <ul class="list_center2">
+                <h2>Main Features</h2>
+                <li>Centralised monitoring and control system</li>
+                <li>Security</li>
+                <li>User friendly UX system</li>
+                <li>Sensors</li>
+            </ul>
+            <ul class="list_right2">
+                <h2>What are some Smart Building scenarios?</h2>
+                <li>Smart Curtains</li>
+                <li>Automated lights</li>
+                <li>Biometric Security Systems</li>
+                <li>Temperature moderation for better sleep</li>
+            </ul>
+          </fieldset>
+        </section>
+        <section>
+            <h2 style="font-size:xxx-large; text-align:center;background: #fff url(https://thumbs.dreamstime.com/z/memphis-abstract-pop-art-line-dots-color-pattern-background-vector-liquid-splash-overlay-geometric-design-memphis-style-color-127593560.jpg) center center/cover no-repeat;">Control Interface</h2>
+          <fieldset class="control">
+            <ul class="list_left3">
+                <h2>What are high-level features?</h2>
+                <li>Door won’t unlock unless credentials match.</li>
+                <li>Curtains will open or close depending on light intensity.
+                </li>
+                <li>Automated home cleaning.</li>
+            </ul>
+            <ul class="list_center3">
+                <h2>What are the needed parts?</h2>
+                <li>Fingerprint sensors and camera  for biometric security</li>
+                <li>DH22 Sensors</li>
+                <li>LDR sensors for smart curtains.</li>
+                <li>Infrared and photocell sensors for vacuum cleaners.</li>
+            </ul>
+            <ul class="list_right3">
+                <h2>Who are the users?</h2>
+                <li>People living in smart building.</li>
+                <li>Employees and executives in office areas.</li>
+                <li>Shopkeepers in supermarkets.</li>
+            </ul>
+          </fieldset>
+        </section>
+    </main>
+    <footer class="details">
+        <ul>
+            <li>Student ID:2110994823</li>
+            <li>Email: nilanjan4823.be21@chitkara.edu.in</li>
+            <li>Software Engineering, 3rd Sem</li>
+        </ul>
+    </footer>
+  </body>
+</html>
